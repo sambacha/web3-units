@@ -93,10 +93,10 @@ export class Time {
   }
 
   /**
-   * @notice ~365.24 days
-   * @return A year in seconds
+   * @notice 365.2425 days
+   * @return An average year in seconds
    */
   static get YearInSeconds(): number {
-    return 31556925
+    return 31556952
   }
 }
